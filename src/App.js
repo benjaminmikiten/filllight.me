@@ -1,7 +1,6 @@
 import React, { useRef } from 'react';
 import styled from 'styled-components';
 import { motion, useMotionValue, useTransform } from 'framer-motion';
-import { setLightness } from 'polished';
 
 const StyledControl = styled(motion.div)`
   /* position: absolute; */
